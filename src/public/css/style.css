@@ -1,0 +1,87 @@
+h1 {
+    color:rgb(54, 55, 145); 
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a99dd6;
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Opcional: para centrar las tarjetas horizontalmente */
+}
+.card{
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 350px;
+    background-color: #7c56a5;
+    margin: 10px
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+a {
+    color: red;
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    padding: 8px 16px;
+    background-color: #331455;
+    color: #fff;
+    border-radius: 4px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
+.pagination-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #331455;
+    border-radius: 4px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pagination-link:hover {
+    background-color: #45a049;
+}
+input,
+select,
+button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #331455;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
